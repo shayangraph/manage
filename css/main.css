@@ -880,26 +880,26 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-body{
-  background-image: url('../img/bg-tablet-pattern.svg');
-  background-repeat:no-repeat;
-  background-size:800px;
-  background-position:90% -25%;
+body {
+  background-image: url("../img/bg-tablet-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: 90% -25%;
 }
 
-#cta{
-  background-image: url('../img/bg-simplify-section-desktop.svg');
-  background-repeat:no-repeat;
+#cta {
+  background-image: url("../img/bg-simplify-section-desktop.svg");
+  background-repeat: no-repeat;
 }
 
-@media(max-width:576px){
-  body{
-    background-position:50% -50%;
-    background-size:500px;
+@media (max-width: 576px) {
+  body {
+    background-position: 50% -50%;
+    background-size: 500px;
   }
 
-  #cta{
-    background-image: url('../img/bg-simplify-section-mobile.svg');
+  #cta {
+    background-image: url("./img/bg-simplify-section-mobile.svg");
   }
 }
 
